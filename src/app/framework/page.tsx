@@ -11,14 +11,14 @@ const frameworkItems = [
     icon: Target,
     bad: "\"Build me a cool AI tool\"",
     good: "\"Customer service spends 3 hours a day answering repeat emails about account balances. Build something that answers those automatically.\"",
-    explanation: "If you start with vibes, the AI guesses. And it guesses wrong. But if you define the job to be done, the constraint, the success condition—now it understands.",
+    explanation: "If you start with vibes, the AI guesses. And it guesses wrong. But if you define the job to be done, the constraint, the success condition - now it understands.",
   },
   {
     num: "02",
     title: "Small Pieces (Modules)",
     icon: Layers,
     bad: "One massive 1,000 line file",
-    good: "Email Reader → Topic Detector → Response Generator → Quality Checker",
+    good: "Email Reader -> Topic Detector -> Response Generator -> Quality Checker",
     explanation: "Remember the whiteboard? You can't dump 'the whole system' on it. Plan small pieces. Each piece fits on the whiteboard. The AI can handle it brilliantly. Then you connect them.",
   },
   {
@@ -57,13 +57,12 @@ export default function Framework() {
           animate={{ opacity: 1, y: 0 }}
           className="text-center mb-16"
         >
-          <p className="text-[#00d4ff] text-sm font-medium mb-4">ACT 2 • 18:00-28:00</p>
+          <p className="text-[#00d4ff] text-sm font-medium mb-4">ACT 2 | 18:00-28:00</p>
           <h1
             className="text-4xl md:text-6xl font-bold mb-6"
             style={{ fontFamily: "Syne, sans-serif" }}
           >
-            The 5 Things AI Needs You to{" "}
-            <span className="gradient-text">Plan</span>
+            The 5 Things AI Needs You to <span className="gradient-text">Plan</span>
           </h1>
           <p className="text-xl text-[#94a3b8]">
             This is how you go from chaos to clarity
@@ -92,7 +91,7 @@ export default function Framework() {
                   <p className="text-[#94a3b8] mb-6">{item.explanation}</p>
                   <div className="grid md:grid-cols-2 gap-4">
                     <div className="bg-[#ef4444]/10 border border-[#ef4444]/30 rounded-xl p-4">
-                      <p className="text-sm text-[#ef4444] font-medium mb-1">❌ DON&apos;T</p>
+                      <p className="text-sm text-[#ef4444] font-medium mb-1">X DON&apos;T</p>
                       <p className="text-[#94a3b8]">{item.bad}</p>
                     </div>
                     <div className="bg-[#10b981]/10 border border-[#10b981]/30 rounded-xl p-4">
@@ -116,7 +115,7 @@ export default function Framework() {
           <p className="text-xl text-[#94a3b8] mb-4 italic">
             &quot;Plans are only good intentions unless they immediately degenerate into hard work.&quot;
           </p>
-          <p className="text-[#64748b] mb-4">— Peter Drucker</p>
+          <p className="text-[#64748b] mb-4">- Peter Drucker</p>
           <p className="text-[#00d4ff] text-lg font-medium">
             Our &apos;hard work&apos; isn&apos;t coding. It&apos;s planning clearly enough that AI can execute for us.
           </p>
@@ -130,7 +129,7 @@ export default function Framework() {
           className="bg-gradient-to-r from-[#ffd700]/10 to-[#ffd700]/5 border border-[#ffd700]/30 rounded-2xl p-8 mb-16 text-center"
         >
           <p className="text-xl text-[#94a3b8] mb-4">
-            Quick question: Which of these five do you already do in your day job—completely outside of tech?
+            Quick question: Which of these five do you already do in your day job - completely outside of tech?
           </p>
           <p className="text-[#ffd700] font-medium">
             Defining the problem clearly? Breaking big projects into pieces? Setting success criteria?

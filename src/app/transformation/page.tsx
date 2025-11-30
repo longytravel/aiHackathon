@@ -14,7 +14,7 @@ export default function Transformation() {
           animate={{ opacity: 1, y: 0 }}
           className="text-center mb-16"
         >
-          <p className="text-[#ffd700] text-sm font-medium mb-4">ACT 3 • 51:00-60:00</p>
+          <p className="text-[#ffd700] text-sm font-medium mb-4">ACT 3 | 51:00-60:00</p>
           <h1
             className="text-4xl md:text-6xl font-bold mb-6"
             style={{ fontFamily: "Syne, sans-serif" }}
@@ -38,7 +38,7 @@ export default function Transformation() {
             The Meta-Demonstration
           </h2>
           <p className="text-xl text-[#94a3b8] mb-8">
-            This entire session—what you&apos;re experiencing right now—was built with AI using the same methodology I&apos;m teaching you.
+            This entire sessionâ€”what you&apos;re experiencing right nowâ€”was built with AI using the same methodology I&apos;m teaching you.
           </p>
           <div className="grid md:grid-cols-3 gap-6 max-w-2xl mx-auto">
             <div className="stat-card text-center">

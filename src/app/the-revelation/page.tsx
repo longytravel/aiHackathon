@@ -14,7 +14,7 @@ export default function TheRevelation() {
           animate={{ opacity: 1, y: 0 }}
           className="text-center mb-16"
         >
-          <p className="text-[#ffd700] text-sm font-medium mb-4">ACT 2 • 13:00-18:00</p>
+          <p className="text-[#ffd700] text-sm font-medium mb-4">ACT 2 | 13:00-18:00</p>
           <h1
             className="text-4xl md:text-6xl font-bold mb-6"
             style={{ fontFamily: "Syne, sans-serif" }}
@@ -33,9 +33,9 @@ export default function TheRevelation() {
           <p className="text-2xl text-[#94a3b8] mb-4 italic">
             &quot;Plans are useless, but planning is indispensable.&quot;
           </p>
-          <p className="text-[#64748b]">— Dwight D. Eisenhower</p>
+          <p className="text-[#64748b]">- Dwight D. Eisenhower</p>
           <p className="text-[#94a3b8] mt-4 text-sm">
-            He led the D-Day invasion—the largest amphibious assault in history. The plan will change. That&apos;s fine. But the act of planning forces you to break work into pieces. To decide what matters first. To define what &apos;done&apos; looks like.
+            He led the D-Day invasion - the largest amphibious assault in history. The plan will change. That&apos;s fine. But the act of planning forces you to break work into pieces. To decide what matters first. To define what &apos;done&apos; looks like.
           </p>
         </motion.div>
 
@@ -54,7 +54,7 @@ export default function TheRevelation() {
               Think of the AI&apos;s context window like a <span className="text-white font-semibold">whiteboard</span>.
             </p>
             <p className="text-lg text-[#94a3b8] mb-4">
-              Everything you&apos;ve discussed in a session—your prompts, its responses, the code it&apos;s generated—gets written on that whiteboard.
+              Everything you&apos;ve discussed in a session - your prompts, its responses, the code it&apos;s generated - gets written on that whiteboard.
             </p>
             <p className="text-lg text-[#94a3b8]">
               But the whiteboard has edges. When it fills up, the oldest stuff gets <span className="text-[#ef4444] font-semibold">erased</span> to make room for new stuff. The AI isn&apos;t being dumb. It literally <span className="text-white italic">cannot see</span> what fell off the whiteboard.
@@ -107,10 +107,9 @@ export default function TheRevelation() {
           className="quote-card p-8 mb-16"
         >
           <p className="text-3xl text-[#94a3b8] mb-4">
-            &quot;The hottest new programming language is{" "}
-            <span className="text-[#ffd700] font-bold">English</span>.&quot;
+            &quot;The hottest new programming language is <span className="text-[#ffd700] font-bold">English</span>.&quot;
           </p>
-          <p className="text-[#64748b]">— Andrej Karpathy, 2023</p>
+          <p className="text-[#64748b]">- Andrej Karpathy, 2023</p>
         </motion.div>
 
         {/* Navigation */}

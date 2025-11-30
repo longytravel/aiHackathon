@@ -37,7 +37,7 @@ export default function Home() {
         >
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[#00d4ff]/10 border border-[#00d4ff]/30 text-[#00d4ff] text-sm font-medium mb-6">
             <Sparkles className="w-4 h-4" />
-            SESSION 2 • 60 MINUTES
+            SESSION 2 | 60 MINUTES
           </div>
 
           <h1
@@ -83,7 +83,7 @@ export default function Home() {
           <p className="text-[#64748b] text-sm italic">
             &quot;There&apos;s a new kind of coding I call &apos;vibe coding&apos;, where you fully give in to the vibes, embrace exponentials, and forget that the code even exists.&quot;
           </p>
-          <p className="text-[#00d4ff] text-sm mt-2">— Andrej Karpathy, February 2025</p>
+          <p className="text-[#00d4ff] text-sm mt-2">â€” Andrej Karpathy, February 2025</p>
         </motion.div>
       </div>
     </main>

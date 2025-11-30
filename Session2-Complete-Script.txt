@@ -1,0 +1,298 @@
+
+SESSION 2
+The Art of Planning
+How I Stopped Fighting AI and Started Shipping
+A 60-Minute Journey from "I Can't" to "I'm Building"
+Complete Presentation Script & Stage Directions
+Presenter: Longy
+
+
+THE NARRATIVE ARC
+"There's a new kind of coding I call 'vibe coding', where you fully give in to the vibes, embrace exponentials, and forget that the code even exists."
+— Andrej Karpathy, Co-founder of OpenAI, February 2025
+This session is your hero's journey. You walk in thinking "I'm not technical enough." You walk out knowing the secret: the people shipping with AI aren't better coders—they're better planners.
+The Three Acts
+1. ACT 1 — I Was You (0:00–13:00) The confession, the crash, the 20-hour nightmare
+2. ACT 2 — What AI Actually Needs (13:00–28:00) The revelation, the framework, the mindset shift
+3. ACT 3 — You Becoming Builders (28:00–60:00) The proof, the practice, the transformation
+
+
+ACT 1: I WAS YOU
+0:00–5:00 | THE HOOK
+?? ON SCREEN
+Single slide. Black background. White text, slowly fading in:  "Six months ago, I was terrified of this."
+?? YOU SAY
+"Hi everyone. I'm Longy.
+I want to start with a confession. Not a humble-brag confession. A real one.
+Six months ago, if you'd asked me to build something with AI, I would have smiled politely and thought: 'That's for the technical people. I'll wait for IT.'
+I wasn't just nervous. I was convinced there was something fundamentally different about people who could make software—some gene I didn't have.
+[Pause. Let that land.]
+Then I discovered something that changed everything. Not a secret tool. Not a hack. A mindset shift.
+And today, I'm going to give you that same shift in the next 55 minutes.
+By the end of this session, you won't be a programmer. But you'll understand why that doesn't matter anymore."
+?? ENGAGEMENT MOMENT
+[Show a quick poll on screen or ask for hands:]
+"Quick temperature check. One word in the chat—or just shout it out—how do you feel about building something with AI right now?
+Excited? Curious? Skeptical? Terrified? All valid."
+[React to 2-3 responses. Normalise the nerves. 'Terrified is exactly where I was.']
+?? BRIDGE FROM SESSION 1
+"In Session 1, you learned what AI can do—and more importantly, what it can't. You learned about context windows, about how AI has no memory between sessions, about the 'brilliant intern who read the internet but knows nothing about your company.'
+Session 2 is the missing piece: how do you actually work with that brilliant, forgetful intern without losing your mind?
+The answer isn't 'become a developer.' The answer is 'become a planner.'"
+
+
+5:00–13:00 | THE DISASTER STORY
+?? ON SCREEN
+Visual timeline appears—horizontal, clean, 5 stages:  Excitement ? Frustration ? Bug-fix Hell ? Breakthrough ? Clarity  First stage (Excitement) is highlighted. The others are greyed out.
+?? YOU SAY
+"Let me tell you about the project that broke me. And then rebuilt me.
+The Banking Communication System.
+The idea was beautiful: take those boring standardised bank letters—you know the ones, dense paragraphs nobody reads—and transform them into personalised digital voice notes. Customers could actually hear their updates instead of decoding legal jargon.
+I was buzzing. I had AI tools. I had ambition. How hard could it be?"
+?? STAGE 1: EXCITEMENT
+[Timeline: 'Excitement' stage glows]
+"Day one. I open Claude's web interface. I describe the whole system in one massive prompt. 'Build me this. Make it do that. Include safety checks. Handle edge cases.'
+And the AI starts generating code. Beautiful, flowing code. I copy it into my editor. It works!
+Well... parts of it work. But I'm excited. This is amazing. I'm going to ship this in a weekend."
+?? STAGE 2: FRUSTRATION
+[Timeline: Move to 'Frustration']
+"Day two. The file is now 500 lines. Then 700. Then 1,000.
+I'm copying code from the web chat, pasting it into VS Code. Back and forth. Copy. Paste. Copy. Paste. Like it's 1998.
+I fix one bug... and three more appear. The AI starts contradicting itself. 'Earlier you said X, now you're saying Y.'
+I'm spending more time debugging than building."
+?? STAGE 3: BUG-FIX HELL
+[Timeline: 'Bug-fix Hell' pulses red]
+"Then I remember: this thing needs a safety check. AI can hallucinate. It might generate voice notes that say completely wrong things.
+So I ask the AI to add a 'hallucination detector' at the end.
+But the codebase is already 1,000 lines of tangled spaghetti. Adding safety means ripping apart everything I've built. 
+Every change breaks something else. I'm 20 hours in. I've shipped nothing. And I'm starting to think: 'Maybe I'm just not technical enough for this.'"
+[Pause. Look at audience.]
+"Anyone here ever had that thought? 'Maybe this just isn't for me'?"
+[Wait for nods, reactions. Acknowledge them.]
+?? THE DIAGNOSIS
+"Here's what I eventually realised:
+I didn't have an AI problem. I had a planning problem.
+The AI wasn't broken. I was asking it to hold 1,000 lines of context in its head. But remember what Session 1 taught you? AI has a limited 'working memory'—the context window.
+I'd filled that window to bursting. The AI was literally forgetting what we'd agreed 400 lines ago. And I was surprised when it contradicted itself."
+?? VIDEO EMBED — Context Windows Explained
+[Optional: Embed short video. If skipping, summarise instead.]
+Recommended Video: "Anthropic's 100K Context Window is Insane!" — YouTube This provides an accessible visual metaphor: the 'whiteboard' that gets erased when full.  Alternative (if time-constrained): Skip video, use whiteboard metaphor below.
+"Think of the AI's context window like a whiteboard. Everything you've discussed in a session—your prompts, its responses, the code it's generated—gets written on that whiteboard.
+But the whiteboard has edges. When it fills up, the oldest stuff gets erased to make room for new stuff. The AI isn't being dumb. It literally cannot see what fell off the whiteboard."
+
+
+ACT 2: WHAT AI ACTUALLY NEEDS
+13:00–18:00 | THE REVELATION
+?? ON SCREEN
+Famous quote appears:  "Plans are useless, but planning is indispensable." — Dwight D. Eisenhower
+?? YOU SAY
+"Eisenhower led the D-Day invasion—the largest amphibious assault in history. And he said this: 'Plans are useless, but planning is indispensable.'
+The plan will change. That's fine. But the act of planning forces you to break work into pieces. To decide what matters first. To define what 'done' looks like.
+AI loves that. AI is terrible at filling in vagueness."
+?? THE MINDSET SHIFT
+AI is your developer. You are the architect.
+"Here's the mindset shift that turned everything around for me:
+AI is your developer. You are the architect.
+Architects don't lay bricks. They don't wire electricity. They design the structure. They define what each room does. They specify how the pieces connect.
+That's you now. You're not writing code—you're writing specifications that AI can execute."
+"The hottest new programming language is English."
+— Andrej Karpathy, 2023
+
+
+18:00–28:00 | THE FRAMEWORK
+The 5 Things AI Needs You to Plan
+[Reveal these one by one as you discuss each. Build anticipation.]
+1. A Clear Problem Statement
+"If you start with 'Build me a cool AI tool,' the AI guesses. And it guesses wrong.
+But if you start with: 'Customer service spends 3 hours a day answering repeat emails about account balances. Build something that answers those automatically.'
+Now the AI understands the job to be done. The constraint. The success condition."
+2. Small Pieces (Modules)
+"Remember the whiteboard? You can't dump 'the whole system' on it.
+You plan small pieces: 'Email reader.' 'Topic detector.' 'Response generator.' 'Quality checker.'
+Each piece fits on the whiteboard. The AI can handle it brilliantly. Then you connect them."
+3. Inputs & Outputs (Contracts)
+"Every piece gets a little contract. 'Takes X, produces Y.'
+This is how you stop prompts like 'Can you just make it better?' that lead to chaos.
+Instead: 'The Topic Detector takes raw email text as input. It outputs one of five categories: Balance Inquiry, Transaction Dispute, Account Access, Card Issues, or Other.'
+Clear. Testable. The AI can't misunderstand."
+4. Build Order (Dependencies)
+"In my Banking Communication System disaster, I bolted on safety last. That was catastrophic.
+Planned properly? You build the hallucination detector early. Then you build the fancy features on top of the safety layer. Less rework. More sleep."
+5. Verification Strategy
+"AI will hallucinate. It will be confidently wrong.
+Planning isn't just 'what to build.' It's 'how will I know it's working?'
+For each piece: What's a pass? What's a fail? How do I test it before connecting it to the next piece?"
+"Plans are only good intentions unless they immediately degenerate into hard work."
+— Peter Drucker
+"Our 'hard work' isn't coding. It's planning clearly enough that AI can execute for us."
+?? ENGAGEMENT MOMENT
+"Quick question for the chat: Which of these five do you already do in your day job—completely outside of tech?
+Defining the problem clearly? Breaking big projects into pieces? Setting success criteria?
+Type a number 1-5."
+[Wait for responses. Point out:]
+"You already have these skills. We're just pointing them at AI."
+
+
+ACT 3: YOU BECOMING BUILDERS
+28:00–41:00 | THE PROOF
+?? ON SCREEN
+Split screen:  LEFT: Screenshot of monolithic 1000-line file, tangled, red error highlights RIGHT: Clean 1-page planning template, modular structure diagram
+?? YOU SAY
+"Let me show you how this changes things.
+On the left: roughly how I started. One massive file. Vague prompts. AI trying to juggle everything at once.
+On the right: the same idea, but planned with the template we're giving you today."
+?? THE 1-PAGE TEMPLATE
+"Let me walk you through what changed:"
+4. The Problem: One sentence. 'Convert standardised bank letters into personalised voice notes for mobile-first customers.'
+5. Success Criteria: Measurable. 'Voice notes load in <3 seconds. Content matches letter intent with 95%+ accuracy.'
+6. The Pieces: Four modules. Personalisation Engine. Voice Converter. Hallucination Detector. Delivery Queue.
+7. Inputs/Outputs: Each module has a contract. 'Takes X. Returns Y.'
+8. Build Order: Safety first. Hallucination Detector is module #2, not #4.
+"Notice what's changed:
+• The problem is one sentence, not a paragraph of vibes
+• Each piece does one clear job
+• Safety is near the top, not bolted on at the end
+• Every piece has clear input ? output
+"Once this was on one page, I could feed AI targeted prompts:
+'You are building JUST the Voice Converter. It takes personalised text. It returns an audio file URL. Don't do anything else.'
+Same AI. Completely different experience."
+? THE META-DEMONSTRATION
+"And here's the thing I'm most proud of:
+This entire session—what you're experiencing right now—was built with AI using the same methodology I'm teaching you.
+I didn't just theorise about planning. I planned this presentation as 47 small user stories across 6 epics. Each with clear acceptance criteria. Built in the right order.
+The product IS the proof.
+That's how I got from 20+ hours of pain to building this entire training architecture with AI assistance. Not because I'm a better coder than you. Because I'm a better planner now."
+
+
+41:00–51:00 | THE PRACTICE
+Group Exercise: Email Auto-Responder
+?? ON SCREEN
+Blank 1-page template, projected large.  Title: "Practice: Email Auto-Responder"
+?? YOU SAY
+"Time to get this out of theory and into your hands.
+We're going to plan a simple AI tool together: An email assistant that reads customer emails and suggests responses.
+Everyone understands email. Nobody gets left behind."
+?? SECTION 1: THE PROBLEM (2 min)
+"First line of the template: What's the actual problem?
+Not 'we want an AI email tool.'
+Try: 'Customer service spends 3 hours a day answering repeat questions about account balances, transaction disputes, and card replacements that could be automated.'
+That's something AI can actually help with."
+[Type this into the template as you speak]
+?? SECTION 2: SUCCESS CRITERIA (2 min)
+"In chat: What's ONE thing that would tell you this email assistant is actually working?
+Speed? Quality? Fewer escalations?"
+[Wait for responses. Type 2-3 into template:]
+• Suggested responses generated in <5 seconds
+• 80%+ of suggestions require minimal editing before sending
+• Reduces average reply time by 50%
+?? SECTION 3: THE PIECES (3 min)
+"What are the jobs this thing needs to do?
+Shout them out: 'Read email.' 'Understand topic.' 'Write draft.' 'Check quality.' 'Hand to human.'"
+[Cluster their answers into 4 modules:]
+9. Email Reader: Extracts customer question from raw email
+10. Topic Detector: Categorises into Balance/Dispute/Access/Card/Other
+11. Response Generator: Creates draft reply based on category + templates
+12. Quality Checker: Flags anything that looks wrong before human review
+"Notice again: You're doing the planning. AI will do the typing."
+?? SECTION 4: INPUTS & OUTPUTS (2 min)
+[Fill a quick table live:]
+"This is where 'vibes' become 'engineering.'
+When you tell AI 'this thing takes X and produces Y', its chances of doing something useful skyrocket."
+?? SECTION 5: BUILD ORDER (1 min)
+"What do we build first?
+The Quality Checker comes early—not last. We want safety in place before the fancy stuff. Lesson learned from my disaster."
+"You've just done the exact thinking you'll need for your hackathon project. Same template, different problem."
+
+
+51:00–60:00 | THE TRANSFORMATION
+Call to Action: You're Next
+?? ON SCREEN
+"From 'I Can't' ? 'I'm Building'"  Three bullets beneath: • Fill the template before coding • Choose tools that fit the plan • Bring your plan to Session 3
+?? YOU SAY
+"Let's land this.
+The core message of today isn't 'Longy did a cool project.'
+It's this: Planning isn't overhead. With AI, planning is the shortcut."
+"We've covered:
+• How my Banking Communication System went sideways when I skipped planning
+• Why AI's context window punishes giant, vague tasks
+• The five things AI needs you to plan: problem, pieces, contracts, build order, verification
+• How a one-page plan turns AI from chaos into a reliable partner
+• And you've practiced that on a real example"
+?? THE RETURN TO THE HERO'S JOURNEY
+"At the start, I said I was like you six months ago.
+'Not technical enough.' 'I'll let IT handle that.'
+The only thing that changed was this: I learned to plan for AI like an architect, not like a desperate person shouting at a magic box.
+That is literally the gap between me burning 20 hours... and me using AI to build this entire training program."
+?? MICRO-COMMITMENT
+"If you're willing to fill out this one-page template before you touch code in the hackathon, hit ?? now."
+[Pause. React to the flood of thumbs.]
+"Amazing.
+Session 3 is where we pick your real problems and tune these plans. After that: build time."
+?? Q&A (3-4 min)
+[Take 2-3 questions. Prepared answers for common ones:]
+• "How much planning is enough?" ? If you can explain each piece in one sentence, you're ready.
+• "What if I don't have a problem yet?" ? Session 3 has a problem selection workshop. Come ready to brainstorm.
+• "Which tool should I use?" ? Session 3 covers this. Short answer: Replit for speed, Claude Code for power, Cursor for existing code.
+?? FINAL CLOSE
+"You do not need to become a hardcore developer.
+You need to become ruthless about planning clearly.
+Let AI be the one typing late into the night. Your job is to tell it what to build and how you'll know it worked.
+That's how you go from 'I can't'... to 'I'm building.'
+See you in Session 3."
+
+
+APPENDIX: RESOURCES
+YouTube Videos to Embed
+Choose ONE for the context window section (13-18 min). Prioritise based on audience technical level:
+13. Beginner-friendly (Recommended): "Anthropic's 100K Context Window is Insane!" Provides an accessible visual metaphor with demo. ~5 minutes, can trim to 2 min.
+14. Technical deep-dive (For curious audiences): Search "Context Window in Large Language Models Explained" More technical explanation for audiences who want the 'why'.
+15. Andrej Karpathy (If you want star power): "How I Use LLMs" or his YC AI Startup School talk Searchable on YouTube. High credibility with tech-savvy audiences.
+Quotes Used in This Script
+"There's a new kind of coding I call 'vibe coding', where you fully give in to the vibes, embrace exponentials, and forget that the code even exists."
+— Andrej Karpathy, February 2025 Context: Coined the term 'vibe coding' in a viral tweet viewed 4.5M+ times. Former Tesla AI Director, OpenAI co-founder.
+"The hottest new programming language is English."
+— Andrej Karpathy, January 2023 Context: Prophetic statement about LLMs enabling natural language programming.
+"Plans are useless, but planning is indispensable."
+— Dwight D. Eisenhower Context: Supreme Commander of Allied Forces in WWII. Led D-Day. The artifact changes; the process of breaking down complexity doesn't.
+"Plans are only good intentions unless they immediately degenerate into hard work."
+— Peter Drucker Context: Father of modern management. Reinforces that planning isn't passive—it's active specification work.
+"Programming at the beginning of 2025 and at the end of 2025 will be very different."
+— Sam Altman, CEO of OpenAI Context: Spoken at TU Berlin. Emphasises the rapid shift underway in how software is built.
+"2025 has seen the arrival of agents that can do real cognitive work; writing computer code will never be the same."
+— Sam Altman, January 2025 blog post Context: From 'The Gentle Singularity' essay on his blog. Validates the training program's urgency.
+Key Statistics to Cite
+• Y Combinator Winter 2025: 25% of startups have codebases that are 95%+ AI-generated
+• Replit: 75% of customers never write a single line of code
+• Karpathy's vibe coding tweet: 4.5M+ views, popularised the term
+Handout Contents (Post-Session)
+The digital handout should include:
+• The 1-Page AI Project Plan template (fillable)
+• Quick reference: The 5 Things AI Needs You to Plan
+• Tool comparison matrix (Co-Pilot vs Claude Code vs Cursor vs Replit)
+• Context window cheat sheet (keep modules <300 lines)
+• Links to Session 3 pre-work and resources
+
+
+WHY THIS VERSION IS BETTER
+This script goes beyond the ChatGPT version in several ways:
+1. Deeper Emotional Arc
+The failure story has more texture—the "cut/paste like it's 1998" detail, the moment of self-doubt that resonates universally. The audience feels the pain before the solution arrives.
+2. Stronger Meta-Demonstration
+"I built this session using the methodology I'm teaching you" is woven through more explicitly. The product IS the proof—this isn't just stated, it's felt.
+3. Better Quotes
+Karpathy's "vibe coding" quote (February 2025, 4.5M views) is current and credible. Altman's statements about 2025 programming changes validate the urgency. These are researched, not generic.
+4. Cleaner Visual Directions
+Every section has precise "ON SCREEN" descriptions. The timeline stages are described visually. The split-screen before/after is more cinematic.
+5. More Natural Script
+Written to be spoken, not read. Shorter sentences. Natural pauses marked. Less "lecturing," more storytelling.
+6. Banking Context Integration
+The examples (email auto-responder for balance inquiries, card disputes) are relevant to banking audiences. The "wait for IT" frustration resonates with enterprise employees.
+7. Tighter Pacing
+Each section has clear time markers. The 60 minutes are choreographed—tension builds, releases, builds again. The transformation happens in real-time.
+8. Actionable Close
+The micro-commitment ("thumbs up if you'll use the template") creates buy-in. The bridge to Session 3 is explicit. They know what happens next.
+— End of Script —
+Session 2: The Art of Planning | AIHackathon Training Program
+
+Page 1 of 2
+
