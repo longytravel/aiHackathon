@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import Navigation from "@/components/Navigation";
 
 export const metadata: Metadata = {
   title: "The Art of Planning | AI Hackathon - Session 2",
@@ -27,7 +28,10 @@ export default function RootLayout({
       <body className="antialiased">
         <div className="blueprint-grid" />
         <div className="noise-overlay" />
-        {children}
+        <Navigation />
+        <div className="pt-16">
+          {children}
+        </div>
       </body>
     </html>
   );
